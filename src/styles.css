@@ -2,7 +2,7 @@ body {
   background: linear-gradient(to right, #FF6EC4, #F9E8D8);
   background-size: 200% 200%;
   animation: gradientAnimation 3s infinite alternate;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 @keyframes gradientAnimation {

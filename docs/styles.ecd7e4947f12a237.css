@@ -1,0 +1,1 @@
+body{background:linear-gradient(to right,#FF6EC4,#F9E8D8);background-size:200% 200%;animation:gradientAnimation 3s infinite alternate}@keyframes gradientAnimation{0%{background-position:0% 50%}to{background-position:100% 50%}}@media screen and (max-width: 768px){body{background-size:cover}.welcome-container{font-size:2em}}
