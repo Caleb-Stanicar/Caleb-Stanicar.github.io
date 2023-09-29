@@ -1,0 +1,18 @@
+.final-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.final-text {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

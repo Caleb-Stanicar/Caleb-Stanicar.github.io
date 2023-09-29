@@ -1,0 +1,36 @@
+.girl-page-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  position: relative; /* Add relative positioning to contain the absolute positioned explosions */
+}
+
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+.explosion {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: url('/assets/explosion.png') no-repeat center center; /* Replace with your explosion image path */
+  background-size: cover;
+  animation: explodeAnimation 2s linear infinite;
+}
+
+@keyframes explodeAnimation {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}

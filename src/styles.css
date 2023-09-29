@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background: linear-gradient(to right, #FF6EC4, #F9E8D8);
+  background-size: 200% 200%;
+  animation: gradientAnimation 3s infinite alternate;
+  overflow: hidden;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Add a media query for smaller screens */
+@media screen and (max-width: 768px) {
+  body {
+    background-size: cover; /* Ensure the background covers the whole screen */
+  }
+
+  .welcome-container {
+    font-size: 2em; /* Adjust font size for smaller screens */
+  }
+}

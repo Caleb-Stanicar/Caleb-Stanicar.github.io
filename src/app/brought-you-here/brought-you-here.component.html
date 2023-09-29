@@ -1,0 +1,8 @@
+<div class="brought-you-here-container">
+  <img *ngIf="showImage1" src="assets\download.jfif" alt="Download Image">
+  <button *ngIf="showButton1" (click)="handleButtonClick()">Yep...</button>
+  <img *ngIf="showImage2" src="assets/are-you-sure-about-that-the-rock.gif" alt="Another Image">
+  <button *ngIf="showButton2" (click)="handleSecondButtonClick()">Jesus, yes</button>
+  <img *ngIf="showImage3" src="assets/are-you-sure-5aac0e.jpg" alt="Another Image 2">
+  <button *ngIf="showButton3" (click)="handleThirdButtonClick()">Caleb, please</button>
+</div>

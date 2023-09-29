@@ -1,0 +1,27 @@
+.welcome-container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 2em; /* Reduced font size for smaller screens */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+.next-button {
+  color: grey;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 20px; /* Add some space between text and button */
+  transition: background 0.3s; /* Add a smooth transition on hover */
+}
+
+.next-button:hover {
+  background: linear-gradient(to right, #FF6EC4, #F9E8D8);
+  filter: brightness(1.2); /* Lighten the button on hover */
+}
